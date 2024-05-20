@@ -6,6 +6,7 @@ import 'package:meals/screens/tabs.dart';
 import'package:flutter_riverpod/flutter_riverpod.dart';
 
 //import 'screens/categories.dart';
+//check commit
 
 final theme = ThemeData(
   useMaterial3: true,
