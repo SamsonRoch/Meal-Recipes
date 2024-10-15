@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "217875645995",
+    "project_id": "meal-recipes-app-ee087",
+    "storage_bucket": "meal-recipes-app-ee087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217875645995:android:51ca164cd98d7dbb6d8c6e",
+        "android_client_info": {
+          "package_name": "com.example.meals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217875645995-v6vre2dnckermo92smc3ab4dp4mtivdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meals",
+            "certificate_hash": "736686af8dcd22259a8502feeec49e0800c4db0c"
+          }
+        },
+        {
+          "client_id": "217875645995-9b4d2mvs846a97r7nt1tqjo46376efa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU9BgQNv7JI4rf1UeRwtr7Glbsd_ed3UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217875645995-9b4d2mvs846a97r7nt1tqjo46376efa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

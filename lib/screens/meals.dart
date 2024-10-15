@@ -69,3 +69,61 @@ class MealsScreen extends StatelessWidget {
     );
   }
 }
+// import 'package:flutter/material.dart';
+// import 'package:flutter_riverpod/flutter_riverpod.dart';
+// import 'package:meals/models/meal.dart';
+// import 'package:meals/providers/meals_provider.dart';
+// import 'package:meals/screens/meal_detail.dart';
+
+// class MealsScreen extends ConsumerWidget {
+//   final String title;
+//   final List<Meal> meals;
+
+//   MealsScreen({
+//     required this.title,
+//     required this.meals,
+//   });
+  
+  
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final mealsAsyncValue = ref.watch(mealsProvider);
+
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text('Meals'),
+//       ),
+//       body: mealsAsyncValue.when(
+//         data: (meals) {
+//           if (meals.isEmpty) {
+//             return Center(
+//               child: Text(
+//                 'No data...',
+//                 style: Theme.of(context).textTheme.headline6,
+//               ),
+//             );
+//           }
+//           return ListView.builder(
+//             itemCount: meals.length,
+//             itemBuilder: (context, index) {
+//               final meal = meals[index];
+//               return ListTile(
+//                 title: Text(meal.title),
+//                 onTap: () {
+//                   Navigator.push(
+//                     context,
+//                     MaterialPageRoute(
+//                       builder: (context) => MealDetailsScreen(meal: meal),
+//                     ),
+//                   );
+//                 },
+//               );
+//             },
+//           );
+//         },
+//         loading: () => Center(child: CircularProgressIndicator()),
+//         error: (error, stackTrace) => Center(child: Text('Error: $error')),
+//       ),
+//     );
+//   }
+// }
