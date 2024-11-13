@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-# meals
+Meal Recipes App
+A cross-platform mobile application that enables users to manage and explore a variety of meal recipes based on available ingredients, using Flutter for UI development and Firebase for backend data management.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Meal-Recipes
->>>>>>> f238f433da6ceb151d6c443272f11b397f7bce7d
